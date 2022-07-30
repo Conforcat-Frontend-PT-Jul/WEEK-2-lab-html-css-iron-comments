@@ -12,7 +12,21 @@
 <body>
 
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="name">
+
+        <label for="comment">Comment:</label>
+        <textarea name="comment" id="comment" rows="10" cols="33"></textarea> 
+
+        <div>
+             <label for="updates">Receive email updates?</label>
+             <input type="checkbox" value="Receive email updates?" id="updates" name="updates"> 
+        </div>
+
+        <button  id="btn-submit">Submit</button>
     </form>
 
 </body>
