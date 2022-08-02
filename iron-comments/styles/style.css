@@ -25,7 +25,13 @@ input[type=text], [type=email], textarea {
   margin: 2px 0px 2px 0px;
   border: 1px solid rgb(67, 163, 230);
   border-radius: 2px;
-  
+  /* width: 95%; */
+  /*
+  si incluyo el width entonces todos los inputs quedan
+  alineados a la derecha, justo hasta donde termina el checkbox
+  PERO entonces ya no que el hueco (margin? o padding?) más amplio 
+  a la derecha que a la izquierda, como aparece en la imagen
+  */
 
 
 }
