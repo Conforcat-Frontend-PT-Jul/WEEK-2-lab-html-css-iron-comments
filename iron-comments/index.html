@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title> Iron Comments </title>
-    
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
-    </form>
+    <title>Iron Comments</title>
 
-</body>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  </head>
+  <body>
+    <div>
+      <form id="form-container" action="#" method="post">
+        <fieldset>
+          <label for="name">Name:</label>
+          <input id="name" name="name" /><br />
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="email" /><br />
+          <label for="comment">Comment:</label>
+          <textarea name="comment" id="comment" cols="20" rows="10"></textarea>
+          <br />
+          <div class="checkbox">
+            <label for="checkbox"><i>Receive email updates?</i></label>
+            <input type="checkbox" id="checkbox" />
+          </div>
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
 </html>
