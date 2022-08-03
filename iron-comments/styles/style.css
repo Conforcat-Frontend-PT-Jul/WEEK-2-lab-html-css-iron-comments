@@ -3,9 +3,38 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color:rgb(25, 33, 41);
+    color:rgb(255,255,255);
+    font-weight: bold;
+    line-height: 25px;
 }
 
 #form-container {
+    width: 228px;
     margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(67, 163, 230);
+}
+
+.button{
+    background-color:rgb(67, 163, 230);
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius:10px;
+}
+.checkbox{
+    font-style: italic;
+}
+#name{
+    width: 180px;
+}
+#mail{
+    width: 180px;
+
+}
+
+#comment{
+    height: 180px;
+    width: 180px;
 }
