@@ -2,10 +2,46 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw;
+    background-color:rgb(25, 33, 41);    
 
 }
 
+
 #form-container {
+    border: 2px solid rgb(67, 163, 230) ;
+    color: white;
     margin: auto;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 24px;
+    font-weight: bold;
+    
+}
+
+
+.updates{
+    font-style: oblique;
+}
+
+#submit{
+    font-size: 14px;
+    padding:0.5em 0.5em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(67, 163, 230) ;
+    color: rgb(255,255,255);
+}
+
+#submit:hover{
+    background-color: rgb(135, 202, 250);
+    transition-duration: 0.2s;
+}
+
+textarea{
+    resize: none;
 }
