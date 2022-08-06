@@ -25,7 +25,7 @@ body {
 
 
 
-label, #updates {
+label, #updates-container {
     color:rgb(255,255,255);
     font-weight: bold;
     
@@ -37,9 +37,17 @@ input, #comment {
     margin: 5px 0px 5px 0px;
 }
 
+#name, #email, #comment {
+width: 200px;
+}
 
-#updates {
+#updates-container {
     font-style: oblique;
+    display:flex;
+}
+
+.updates {
+    margin-right:20px;
 }
 
 #submit-button {
