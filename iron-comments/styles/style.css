@@ -2,10 +2,85 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;   
+    background-color:rgb(25,33,41);
 }
 
 #form-container {
-    margin: auto;
+	width:250px;
+	padding:20px;
+	border-radius:0px;
+	margin:auto; 
+	border:2px solid rgb(67,163,230);
+    background-color:rgb(25,33,41);
+	display:block;
+
 }
+
+.Name {
+	color: #f6f6f6;
+	font-size: 18px;
+}
+
+.Email {
+	color: #f6f6f6;
+	font-size: 18px;
+}
+
+.Comment {
+	color: #f6f6f6;
+	font-size: 18px;
+}
+
+.Comment_box {
+	color: #f6f6f6;
+	font-style: italic;
+	font-size: 18px;
+
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"], 
+form input [type="Comment"]
+{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid rgb(67,163,230);
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:24%;
+	padding:6px 8px;
+	margin-top:32px;
+	border:1px solid rgb(67,163,230);
+	border-radius:11px;
+	display:block;
+	color:#fff;
+	background-color:rgb(67,163,230);
+
+} 
+
+#Comment_area {
+	width:78%;
+	height:170px;
+	border:1px solid rgb(67,163,230);
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	display:block;
+}
+
+form input[type="checkbox"]{
+	color:#fff;
+}
+
