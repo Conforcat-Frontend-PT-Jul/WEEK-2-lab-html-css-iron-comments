@@ -2,10 +2,75 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw;   
+    background-color: rgb(25, 33, 41);  
+    
 
+}
+
+.form {
+    font-size: 16px;
+    color: white;
+    width:226px;
+    border-color: rgb(67, 163, 230);
+    border-style: solid;
+    border-width: 2px;
+    padding: 30px 0px 20px 20px;
+    margin: 10px 60px 30px 50px;
+    border-radius: 2px;
+}
+
+.label {
+    border-color: rgb(67, 163, 230);
+    border: 1px solid rgb(67, 163, 230);
+    width: 170px;
+    
+  
+}
+
+.email {
+    border-color: rgb(67, 163, 230);
+    border: 1px solid rgb(67, 163, 230);
+    width: 170px;
+}
+
+.comment {
+    border-color: rgb(67, 163, 230);
+    border: 1px solid rgb(67, 163, 230);
+    width: 170px;
+    
+}
+
+.italic {
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    font-size: 1em;
+   
+    
+}
+
+.submit {
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    font-size: 0.8em;
+    border-width: 1px;
+    
+        
 }
 
 #form-container {
     margin: auto;
+      
 }
+
+
+Colors
+ 
+Dark Blue: rgb(25, 33, 41)
+Light Blue:  rgb(67, 163, 230)
+Text: rgb(255,255,255)
+
+Form width should be 250px - remember to think 
+about box-sizing when adding padding and borders
