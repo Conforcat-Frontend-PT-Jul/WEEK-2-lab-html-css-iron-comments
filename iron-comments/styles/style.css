@@ -1,11 +1,50 @@
 body {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
-
+  padding: 0;
+  margin: 0;
+  padding-top: 100px;
+  width: 100vw;
+  background-color: rgb(25, 33, 41);
+  border-color: #17212e;
+  border-style: solid;
+  border-width: 1px;
 }
-
+.All {
+  padding: 20px 30px 20px 15px;
+}
 #form-container {
-    margin: auto;
+  margin: auto;
+  width: 250px;
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: azure;
+  border-color: rgb(67, 163, 230);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 1%;
+}
+form label {
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+}
+input,
+textarea {
+  border: 1px solid rgb(67, 163, 230);
+  border-radius: 3px;
+  background-color: #f6f6f6;
+}
+.Italic {
+  font-style: italic;
+  font-size: small;
+}
+/*BOTON*/
+form input[type="Submit"] {
+  width: 30%;
+  padding: 6px 8px;
+  margin-top: 1px;
+  border: 1px solid rgb(67, 163, 230);
+  border-radius: 11px;
+  color: #fff;
+  background-color: rgb(67, 163, 230);
 }
