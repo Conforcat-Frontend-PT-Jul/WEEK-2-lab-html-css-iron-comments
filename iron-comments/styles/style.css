@@ -1,11 +1,55 @@
-body {
+body{
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;  
+    background-color: rgb(25, 33, 41);
+    height: 800px;
 }
 
-#form-container {
+#form-container{
+    font-size: 1em;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: rgb(67, 163, 230) 1px solid;
+    color: white;
+    padding: 2.5%;
+    width: 25%;
+}
+
+.text-field{
+    height: 2em;
+    font-size: 1.5em;
+}
+
+.text-field-comment{
+    height: 15em;
+    font-size: 2em;
+}
+
+.checkbox-field{
+    size: 2em;
+}
+
+#button-submit{
+    border-radius: 20px;
+    background-color: rgb(50, 167, 206);
+    color: white;
+    width: 30%;
+    height: 4.5vh;
+    font-size: 1.5em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 800px;
+}
+
+#email-updates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
 }
