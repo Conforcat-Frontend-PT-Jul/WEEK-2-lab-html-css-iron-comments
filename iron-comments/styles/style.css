@@ -13,16 +13,25 @@ body {
     color: white;
     margin: auto;
     width: 250px;
-    padding: 20px;
+    padding: 20px 48px 20px 20px;
     box-sizing: border-box;
     line-height: 24px;
     font-weight: bold;
     
 }
 
+.inputs{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
 
 .updates{
     font-style: oblique;
+    
 }
 
 #submit{
