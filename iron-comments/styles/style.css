@@ -3,9 +3,31 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
+    color: rgb(255,255,255)
 }
 
 #form-container {
     margin: auto;
+    width: 250px;
+    box-sizing: content-box;
+    border: solid rgb(67, 163, 230) 2px;
+    padding: 17px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+button{
+    background-color:  rgb(67, 163, 230);
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.input-width{
+    width: 80%;
 }
