@@ -1,11 +1,79 @@
-body {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
+:root {
+  --darkBlue: rgb(25, 33, 41);
+  --lightBlue: rgb(67, 163, 230);
+  --text: rgb(255, 255, 255);
+}
 
+body {
+  padding: 0;
+  margin: 0;
+  padding-top: 100px;
+  width: 100vw;
+  background-color: var(--darkBlue);
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
 }
 
 #form-container {
-    margin: auto;
+  margin: auto;
+  width: 250px;
+  height: 500px;
+  border-color: var(--lightBlue);
 }
+
+fieldset {
+  display: inline-block;
+  border-color: var(--lightBlue);
+  height: 380px;
+  margin: 0px;
+  padding: 20px;
+}
+
+input {
+  width: 85%;
+  height: 10px;
+  border-color: var(--lightBlue);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  width: 10%;
+  height: 30px;
+  border-color: var(--lightBlue);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#comment {
+  width: 90%;
+  height: 187px;
+  border-color: var(--lightBlue);
+  border-radius: 5px;
+}
+
+#emailUpdates {
+  width: 10px;
+}
+
+#submit {
+  height: 30px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: var(--lightBlue);
+  color: var(--text);
+}
+
+#name,
+#email {
+  margin: 0;
+}
+
+/*  
+Dark Blue: rgb(25, 33, 41)
+Light Blue:  rgb(67, 163, 230)
+Text: rgb(255,255,255)
+ */
+/*  background: var(--darkblue); */

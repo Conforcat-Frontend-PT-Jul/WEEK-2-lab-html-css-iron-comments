@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title> Iron Comments </title>
-    
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet" />
+    <title>Iron Comments</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  </head>
+  <body>
+    <form id="form-container" action="/registro.html" method="POST">
+      <fieldset>
+        <label for="Name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Iñigo Montoya" />
+        <label for="Email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="e-mail" />
+        <label for="Comment">Comment: </label>
+        <textarea
+          id="comment"
+          name="comment"
+          placeholder="Write your comment here"
+        ></textarea>
+        <label for="emailUpdates"> <i> Receive email updates? </i></label>
+        <input type="checkbox" id="emailUpdates" name="emailUpdates" />
+        <input type="submit" id="submit" value="Submit" />
+      </fieldset>
     </form>
-
-</body>
+  </body>
 </html>
+<!-- Name: Email: Comment: Receive email updates? Submit -->
